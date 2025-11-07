@@ -307,17 +307,41 @@ priority_score = 1000 +
 
 ## 📸 Screenshots
 
-### 1. Home Page - Drop List
+### 1. Home Page (Logged Out)
 ![Home Page](screenshots/home.png)
-*Browse all available drops with filters (Upcoming, Active, Ended). Shows stock availability, waitlist count, and user status.*
+*Browse all available drops without authentication. Shows drop cards with status badges, stock availability, and waitlist counts.*
 
-### 2. Drop Detail & Claim Page
+### 2. Home Page (Logged In)
+![Home Page Logged In](screenshots/home-login.png)
+*Authenticated view showing user status (In Waitlist, Claimed) on drop cards. Navigation includes My Waitlist and My Claims links.*
+
+### 3. Sign Up Page
+![Sign Up](screenshots/sign-up.png)
+*User registration form with email and password validation. Clean and simple authentication flow.*
+
+### 4. Drop Detail & Join Waitlist
 ![Drop Detail](screenshots/drop-detail.png)
-*Detailed drop view with join/leave waitlist buttons. Active claim window allows users to claim based on priority. Shows real-time stock updates and claim codes.*
+*Detailed drop view with join waitlist button. Shows available stock, waitlist count, claimed count, and claim window information.*
 
-### 3. Admin Panel - CRUD Operations
+### 5. Drop Detail - Waitlist Claimed
+![Waitlist Claimed](screenshots/waitlist-claimed.png)
+*User successfully claimed a drop. Shows unique claim code that can be copied. Displays priority score and claim timestamp.*
+
+### 6. My Waitlist Page
+![My Waitlist](screenshots/my-waitlist.png)
+*User's personal waitlist showing all joined drops with priority scores, join timestamps, and claim window information.*
+
+### 7. My Claims Page
+![My Claims](screenshots/my-claims.png)
+*User's claimed drops with unique claim codes. Copy to clipboard functionality for easy code sharing.*
+
+### 8. Admin Panel - CRUD Operations
 ![Admin Panel](screenshots/admin-panel.png)
-*Admin dashboard for managing drops. Create, edit, and delete drops. View waitlist and claim statistics. Modal form for adding/editing drops with validation.*
+*Admin dashboard for managing drops. Create, edit, and delete drops. View waitlist and claim statistics. Real-time data updates.*
+
+### 9. Database Schema (Bonus)
+![Database Schema](screenshots/db.png)
+*PostgreSQL database schema showing relationships between users, drops, waitlist, and claims tables. Demonstrates normalized data structure and foreign key constraints.*
 
 ## 🧪 Testing
 
